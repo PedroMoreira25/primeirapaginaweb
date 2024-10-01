@@ -1,0 +1,86 @@
+@font-face {
+font-family: 'ubuntu';
+src: url(./font/Ubuntu-Medium.ttf);
+}
+
+body {
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230vh; 
+    margin: 0;
+    font-family: ubuntu;
+}
+
+img {
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    border: 5px solid rgb(200, 151, 243);
+}
+
+.contentcenter {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+
+}
+
+.sobremim {
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-size: 16pt;
+}
+
+h3 {
+    color: rgb(200, 151, 243); 
+    margin-bottom: 50px;
+    font-size: 23pt;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 19pt;
+    color: rgb(255, 255, 255);
+  
+}
+
+h6 {
+    color: rgb(200, 151, 243);
+    font-size: 16pt;
+}
+
+#container {
+    background: #474747;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 240px;
+}
+
+#hard, #soft {
+    width: 230px;
+    height: 232px;
+    text-align: center;
+}
+
+#hard {
+    background: #e8d8ff;
+}
+
+#soft {
+    background: #e8d8ff;
+}
+
+h5{
+    text-align: start;
+}
